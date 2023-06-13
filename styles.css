@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+}
+
+canvas {
+    background-color: #443232;
+    display: block;
+    margin: auto;
+}
+
+#bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 75px;
+}
+
+.game-over-msg {
+    font-size: 24px;
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.restart-btn {
+    display: block;
+    margin: 0 auto;
+}
